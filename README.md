@@ -20,8 +20,8 @@ Cada prenda puede tener promociones o descuentos asociados, y la tienda se abast
 - `create_schema.sql`: Script para crear todas las tablas necesarias con sus relaciones e índices.
 - `insert_data.sql`: Datos de prueba insertados para simular la operación real de la tienda.
 - `sample_queries.sql`: Consultas OLAP útiles para análisis estratégicos.
-- `diagrams/`: Diagramas ER o de estrellas para ilustrar el modelo de datos.
-- `README.md`: Este archivo 😉
+- `diagrams/`: Diagramas estrellas para ilustrar el modelo de datos.
+- `README.md`: Este archivo 
 
 ---
 
