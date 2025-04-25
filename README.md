@@ -54,7 +54,6 @@ Cada prenda puede tener promociones o descuentos asociados, y la tienda se abast
 
 - **PostgreSQL** 15+
 - SQL
-- (Opcional) PgAdmin para gestión visual
 
 ---
 
