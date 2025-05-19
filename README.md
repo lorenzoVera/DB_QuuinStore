@@ -17,11 +17,37 @@ Cada prenda puede tener promociones o descuentos asociados, y la tienda se abast
 
 ## 🧱 Estructura del Proyecto
 
-- `create_schema.sql`: Script para crear todas las tablas necesarias con sus relaciones e índices.
-- `insert_data.sql`: Datos de prueba insertados para simular la operación real de la tienda.
-- `sample_queries.sql`: Consultas OLAP útiles para análisis estratégicos.
-- `diagrams/`: Diagramas estrellas para ilustrar el modelo de datos.
-- `README.md`: Este archivo 
+- `creadorDb/`: Scripts para crear e insertar datos en la base de datos.
+- `graficosDb/`: Scripts para generar gráficos a partir de los datos.
+- `graficosImagenes/`: Carpeta donde se guardan las imágenes generadas.
+- `diagrams/`: Diagramas estrella para ilustrar el modelo de datos.
+- `README.md`: Este archivo.
+
+---
+
+## 🛠️ Instrucciones de Uso
+
+### 1. Preparación de la Base de Datos e Inserción de Datos
+
+1. Asegúrate de que tu sistema de gestión de bases de datos esté en funcionamiento.
+2. Crea una nueva base de datos.
+3. Navega al directorio `creadorDb`.
+4. Inserta las tablas de una de estas dos maneras:
+   - Ejecuta el script `creador.py`.  
+     > **Importante:** Modifica la variable `DATABASE_URL` en `creador.py` con la cadena de conexión de tu base de datos.  
+     > Ejemplo:  
+     > `DATABASE_URL = "postgres://usuario:contraseña@host:puerto/nombre_db"`
+   - O ejecuta el archivo SQL que contiene la definición de las tablas.
+5. Inserta los datos ejecutando `main.py` en el mismo directorio.
+6. (Opcional) Visualiza los datos ejecutando `dataview.py`.  
+   > **Importante:** También debes modificar la variable `DATABASE_URL` en este archivo.
+
+### 2. Creación de Gráficos
+
+1. Navega al directorio `graficosDb`.
+2. Ejecuta el script `main.py`.
+   - El script te pedirá los datos necesarios.
+   - Las imágenes se guardarán en la carpeta `graficosImagenes`.
 
 ---
 
@@ -55,12 +81,13 @@ Cada prenda puede tener promociones o descuentos asociados, y la tienda se abast
 - **PostgreSQL** 15+
 - SQL
 - Dbeaver
+- Python (para scripts de carga y gráficos)
 
 ---
 
-## 🚀 Instrucciones
+## 🚀 Clonar el Repositorio
 
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/tuusuario/QuuinStore-OLAP.git
-   cd QuuinStore-OLAP
+```bash
+git clone https://github.com/tuusuario/QuuinStore-OLAP.git
+cd QuuinStore-OLAP
+```
