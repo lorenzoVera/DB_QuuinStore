@@ -1,0 +1,16 @@
+Especificación de la Base de Datos Transaccional QuuinStore
+
+Registro de Clientes e Inventario de Productos
+Se requiere la capacidad de almacenar la información completa de cada cliente, incluyendo sus datos de contacto. Asimismo, es esencial documentar cada tipo de producto disponible, como faldas, tops o vestidos. Para cada uno de estos productos, se necesita un registro detallado de sus variantes específicas (como tallas, colores o materiales), junto con el precio actual y el stock disponible para un control preciso del inventario.
+
+Gestión de Canales y Pagos
+Para las operaciones de venta, se necesita un sistema para identificar y registrar los distintos canales de venta utilizados por Quuin_Store, como Facebook, Instagram y WhatsApp. Paralelamente, se requiere la capacidad de registrar todos los métodos de pago aceptados, ya sean transferencias, efectivo o pagos con tarjeta de débito o crédito.
+
+Control de Promociones y Descuentos
+En relación con las estrategias de marketing, se necesita una forma de administrar las promociones y descuentos activos. Esto implica registrar el nombre de la promoción, su tipo, el valor del descuento y las fechas de inicio y fin de su validez.
+
+Procesamiento Detallado de Ventas
+Para cada transacción de venta, se necesita registrar el pedido completo, vinculándolo al cliente, al canal de venta y al método de pago empleados. A continuación, es fundamental desglosar cada pedido en sus líneas de producto individuales, capturando la cantidad vendida de cada variante de producto, el precio unitario en el momento de la venta, y si se aplicó alguna promoción específica a esa línea.
+
+Abastecimiento y Seguimiento de Compras
+Finalmente, para la gestión de la cadena de suministro, se necesita mantener un registro de los proveedores externos. Para cada compra realizada, se requiere registrar el pedido de compra completo y, de manera detallada, especificar los productos adquiridos, sus cantidades, el precio de compra y la fecha real en que los artículos fueron recibidos.
