@@ -10,7 +10,7 @@ Control de Promociones y Descuentos
 En relación con las estrategias de marketing, se necesita una forma de administrar las promociones y descuentos activos. Esto implica registrar el nombre de la promoción, su tipo, el valor del descuento y las fechas de inicio y fin de su validez.
 
 Procesamiento Detallado de Ventas
-Para cada transacción de venta, se necesita registrar el pedido completo, vinculándolo al cliente, al canal de venta y al método de pago empleados. A continuación, es fundamental desglosar cada pedido en sus líneas de producto individuales, capturando la cantidad vendida de cada variante de producto, el precio unitario en el momento de la venta, y si se aplicó alguna promoción específica a esa línea.
+Para cada transacción de venta, se registra el pedido completo, es decir, se pueden realizar varias ventas en un mismo pedido. A continuación, en cada pedido se realiza un desglose en cada linea como el producto individual, la cantidad vendida de cada variante de producto, el precio unitario en el momento de la venta, y si se aplicó alguna promoción específica a esa línea.
 
 Abastecimiento y Seguimiento de Compras
 Finalmente, para la gestión de la cadena de suministro, se necesita mantener un registro de los proveedores externos. Para cada compra realizada, se requiere registrar el pedido de compra completo y, de manera detallada, especificar los productos adquiridos, sus cantidades, el precio de compra y la fecha real en que los artículos fueron recibidos.
