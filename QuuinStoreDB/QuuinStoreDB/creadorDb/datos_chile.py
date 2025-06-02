@@ -61,7 +61,7 @@ regiones_y_comunas = {
     "Coquimbo": ["La Serena", "Coquimbo", "Ovalle", "Illapel", "Salamanca", "Andacollo", "Monte Patria", "Los Vilos", "Combarbalá", "Canela"],
     "Valparaíso": ["Valparaíso", "Viña del Mar", "Quilpué", "San Antonio", "Villa Alemana", "Limache", "Olmué", "Casablanca", "Catemu", "La Ligua"],
     "Región Metropolitana": ["Santiago", "Puente Alto", "Maipú", "La Florida", "Las Condes", "Pudahuel", "Quilicura", "San Bernardo", "Peñalolén", "Huechuraba"],
-    "Libertador General Bernardo O'Higgins": ["Rancagua", "San Fernando", "Santa Cruz", "Pichilemu", "Machalí", "Rengo", "Graneros", "Mostazal", "Codegua", "Lolol"],
+    "O'Higgins": ["Rancagua", "San Fernando", "Santa Cruz", "Pichilemu", "Machalí", "Rengo", "Graneros", "Mostazal", "Codegua", "Lolol"],
     "Maule": ["Talca", "Curicó", "Linares", "Constitución", "San Javier", "Molina", "Colbún", "Longaví", "Parral", "Romeral"],
     "Ñuble": ["Chillán", "Quillón", "San Carlos", "Bulnes", "Coihueco", "Yungay", "Pinto", "El Carmen", "Chillán Viejo", "Quirihue"],
     "Biobío": ["Concepción", "Talcahuano", "Los Ángeles", "Coronel", "Hualpén", "Chiguayante", "San Pedro de la Paz", "Lota", "Cabrero", "Tome"],
