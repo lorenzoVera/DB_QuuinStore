@@ -21,6 +21,7 @@ Cada prenda puede tener promociones o descuentos asociados, y la tienda se abast
 - `graficosDb/`: Scripts para generar gráficos a partir de los datos.
 - `graficosImagenes/`: Carpeta donde se guardan las imágenes generadas.
 - `diagrams/`: Diagramas estrella para ilustrar el modelo de datos.
+- `CRUD/`: **Programa para la gestión de datos de ventas (Crear, Leer, Actualizar, Eliminar).**
 - `README.md`: Este archivo.
 
 ---
@@ -50,6 +51,12 @@ Cada prenda puede tener promociones o descuentos asociados, y la tienda se abast
    - Las imágenes se guardarán en la carpeta `graficosImagenes`.
 
 ---
+Gestión de Datos (CRUD de Ventas)
+
+1. Navega al directorio `CRUD/`.
+2. **Asegúrate de configurar los detalles de conexión a la base de datos** en el archivo `db_config.py` (o el archivo donde manejes tus credenciales de DB).
+3. Ejecuta el script principal de la interfaz de usuario: `main_app.py`.
+4. Este programa te permitirá **crear nuevas ventas, visualizar las existentes, modificarlas y eliminarlas** directamente en la base de datos.
 
 ## 🧩 Tablas Principales
 
@@ -82,6 +89,7 @@ Cada prenda puede tener promociones o descuentos asociados, y la tienda se abast
 - SQL
 - Dbeaver
 - Python (para scripts de carga y gráficos)
+-`customtkinter` (para la interfaz gráfica del programa CRUD)
 
 ---
 
