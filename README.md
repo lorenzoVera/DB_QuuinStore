@@ -54,7 +54,7 @@ Cada prenda puede tener promociones o descuentos asociados, y la tienda se abast
 Gestión de Datos (CRUD de Ventas)
 
 1. Navega al directorio `CRUD/`.
-2. **Asegúrate de configurar los detalles de conexión a la base de datos** en el archivo `db_config.py` (o el archivo donde manejes tus credenciales de DB).
+2. **Asegúrate de configurar los detalles de conexión a la base de datos** en `db_config` del archivo `main_app.py`.
 3. Ejecuta el script principal de la interfaz de usuario: `main_app.py`.
 4. Este programa te permitirá **crear nuevas ventas, visualizar las existentes, modificarlas y eliminarlas** directamente en la base de datos.
 
